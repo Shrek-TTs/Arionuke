@@ -27,7 +27,17 @@ try:
     from multiprocessing.pool import ThreadPool
     from selenium import webdriver
 except:
-    os.system("pip install -r requirements.txt")
+    os.system('pip install colorama')
+    os.system('pip install numpy')
+    os.system('pip install discum')
+    os.system('pip install requests')
+    os.system('pip install pyfiglet')
+    os.system('pip install ctypes')
+    os.system('pip install pyfade')
+    os.system('pip install websocket')
+    os.system('pip install emoji')
+    os.system('pip install base64')
+
     os.startfile("main.py")
 
 def Spinner():
